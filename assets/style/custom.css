@@ -2,6 +2,11 @@ body {
     background-color: #f9f8eb;
 }
 
+.container {
+    padding: 20px;
+    margin-top: 50px;
+}
+
 .navbar-custom {
     background-color: #76b39d;
 }
@@ -21,4 +26,34 @@ body {
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link,.navbar-custom .navbar-brand:hover {
     color: #f9f8eb;
+}
+
+/* line */
+.line {
+    border: 1.4px #76b39d80 solid;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 20px;
+}
+
+/* colors */
+header, p {
+    color: #05004e;
+}
+
+.profile-a {
+    color: #fd5f00;
+}
+
+.profile-a:hover {
+    color: #fd5f00;
+}
+
+
+@media (min-width: 576px) { 
+    .profile-pic {
+        width: 200px;
+    }
 }
