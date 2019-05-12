@@ -6,19 +6,19 @@ body {
     background-color: #76b39d;
 }
 
-/* change the brand and text color */
+/* brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: #f9f8eb;
 }
 
-/* change the link color */
+/* link color */
 .navbar-custom .navbar-nav .nav-link {
     color: #f9f8ebb0;
 }
 
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
+.navbar-custom .nav-item:hover .nav-link,.navbar-custom .navbar-brand:hover {
     color: #f9f8eb;
 }
