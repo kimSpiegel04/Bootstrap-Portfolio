@@ -5,6 +5,7 @@ body {
 .container {
     padding: 20px;
     margin-top: 50px;
+    align-content: center;
 }
 
 .navbar-custom {
@@ -51,6 +52,50 @@ header, p {
     color: #fd5f00;
 }
 
+h3 {
+    color: #f9f8eb;
+    background-color: #05004e;
+    width: 300px;
+}
+
+.word-guess, .rpg, .trivia, .rutgers, .rock {
+    margin-bottom: 50px;
+    margin-right: 50px;
+    overflow:hidden;
+}
+
+.rock {
+    margin-left: 15px;
+}
+
+.port-img {
+    width: 300px;
+    opacity: 0.8;
+}
+
+.port-img:hover {
+    opacity: 1.0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+label {
+    color: #05004e;
+}
+
+.btn-primary {
+    background-color: #fd5f00;
+    border-color: #f9f8eb;
+    color: #f9f8eb;
+}
+
+.btn-primary:hover {
+    background-color: #fd5f00;
+    border-color: #fd5f00;
+    color: #f9f8eb;
+}
 
 @media (min-width: 576px) { 
     .profile-pic {
