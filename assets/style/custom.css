@@ -97,6 +97,16 @@ label {
     color: #f9f8eb;
 }
 
+/* footer */
+.footer {
+    text-align: center;
+    background-color: #fd610033;
+}
+
+.text-muted {
+    color: #05004e
+}
+
 @media (min-width: 576px) { 
     .profile-pic {
         width: 200px;
